@@ -5,7 +5,7 @@
 ## 🇬🇧 English Version
 
 ### 1. Prerequisites
-Please ensure **Docker** https://www.docker.com  is installed and running on your local machine (start Docker Desktop for Windows / macOS users).
+Please ensure **Docker**  https://www.docker.com   is installed and running on your local machine (start Docker Desktop for Windows / macOS users).
 
 ### 2. Quick Start Steps
 1.  **Get the Project**
@@ -13,9 +13,9 @@ Please ensure **Docker** https://www.docker.com  is installed and running on you
 
 2.  **Start the Services**
     Open a terminal, navigate to the project root directory, and run the following command to start all services:
-    ```bash
+```bash
     docker compose up -d 
-    ```
+```
     Wait for the images to be pulled, containers to be built, and services to start.
 
 3.  **Access the Application**
@@ -24,9 +24,9 @@ Please ensure **Docker** https://www.docker.com  is installed and running on you
 
 ### 3. Stop the Services
 To shut down the project, run this command in the project root directory:
-    ```bash
+```bash
     docker compose down
-    ```
+```
     Containers will shut down automatically.
 
 
@@ -38,8 +38,8 @@ To shut down the project, run this command in the project root directory:
 
 ## 🇨🇳 中文版
 
-### 一、环境准备s
-请确保本地已安装 **Docker** https://www.docker.com ， 并且 Docker 服务处于**正常运行状态**（Windows / macOS 用户启动 Docker Desktop 即可）。
+### 一、环境准备
+请确保本地已安装 **Docker**  https://www.docker.com  ， 并且 Docker 服务处于**正常运行状态**（Windows / macOS 用户启动 Docker Desktop 即可）。
 
 ### 二、快速启动步骤
 1.  **拉取项目资源**
@@ -47,9 +47,9 @@ To shut down the project, run this command in the project root directory:
 
 2.  **启动项目服务**
     打开终端，进入项目根目录，执行以下命令启动所有服务：
-    ```bash
+```bash
     docker compose up -d
-    ```
+ ```
     等待镜像拉取、容器构建和服务启动完成。
 
 3.  **访问应用**
@@ -58,8 +58,8 @@ To shut down the project, run this command in the project root directory:
 
 ### 三、停止服务
 如需关闭项目，在项目根目录执行：
-    ```bash
+```bash
     docker compose down
-    ```
+```
     容器会自动关闭退出。
       
