@@ -1,7 +1,5 @@
 # PubChat Search Project User Guide
 
----
-
 ## 🇬🇧 English Version
 
 ### 1. Prerequisites
