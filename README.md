@@ -1,5 +1,7 @@
 # PubChat Search Project User Guide
 
+---
+
 ## 🇬🇧 English Version
 
 ### 1. Prerequisites
@@ -31,6 +33,8 @@ To shut down the project, run this command in the project root directory:
 
 
 # PubChat Search 项目使用指南
+
+---
 
 ## 🇨🇳 中文版
 
