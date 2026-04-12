@@ -27,6 +27,7 @@ To shut down the project, run this command in the project root directory:
     ```bash
     docker compose down
     ```
+    
 
 
 # PubChat Search 项目使用指南
@@ -46,6 +47,7 @@ To shut down the project, run this command in the project root directory:
     打开终端，进入项目根目录，执行以下命令启动所有服务：
     ```bash
     docker compose up -d
+    ```
     等待镜像拉取、容器构建和服务启动完成。
 
 3.  **访问应用**
@@ -56,3 +58,4 @@ To shut down the project, run this command in the project root directory:
 如需关闭项目，在项目根目录执行：
     ```bash
     docker compose down
+    ```
