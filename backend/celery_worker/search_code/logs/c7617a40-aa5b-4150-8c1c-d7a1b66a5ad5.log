@@ -1,0 +1,6 @@
+2026-04-12 13:33:39 - LiteratureSearch_c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5 - INFO - ✅ Log system initialized for Task: c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5
+2026-04-12 13:33:39 - LiteratureSearch_c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5 - INFO - ✅ Redis connection established for progress updates.
+2026-04-12 13:33:39 - LiteratureSearch_c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5 - INFO - 🚀 Workflow started for query: 'dhfnc' with filters: [time=2000-2026]
+2026-04-12 13:33:39 - LiteratureSearch_c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5 - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
+2026-04-12 13:33:39 - LiteratureSearch_c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5 - INFO - 🆕 Starting new project.
+2026-04-12 13:33:39 - LiteratureSearch_c7617a40-aa5b-4150-8c1c-d7a1b66a5ad5 - INFO - 2️⃣ Initializing clients...

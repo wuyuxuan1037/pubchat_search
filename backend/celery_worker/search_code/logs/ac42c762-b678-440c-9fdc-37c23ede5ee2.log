@@ -1,0 +1,112 @@
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ Log system initialized for Task: ac42c762-b678-440c-9fdc-37c23ede5ee2
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ Redis connection established for progress updates.
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🚀 Workflow started for query: '吸烟有害健康吗' with filters: [time=2000-2026]
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🆕 Starting new project.
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 2️⃣ Initializing clients...
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    - 🧠 AI Provider set to: {'model': 'gemini-2.5-pro', 'api': ['AIzaSyAcQ-_jNRChQJ0y_MWoMQyLJvXMrJB-eog']}
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    - 🌍 Europe PMC client initialized (primary efetch source)
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 3️⃣ Starting parallel generation of scoring criteria and initial query...
+2026-04-12 15:08:55 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 4️⃣ Waiting for initial search query...
+2026-04-12 15:09:04 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    - ✅ Initial search query generated: ("Smoking"[MeSH Terms] OR "Tobacco Products"[MeSH Terms] OR "Tobacco Use"[MeSH Terms] OR smoking[Tit...
+2026-04-12 15:09:04 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 5️⃣ Executing first search (parallel with scoring criteria)...
+2026-04-12 15:09:06 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    - ✅ Search found 167499 articles, 9999 new
+2026-04-12 15:09:06 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    - 🌍 Pre-fetching first 150 articles from Europe PMC (parallel with scoring criteria)...
+2026-04-12 15:09:06 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 6️⃣ Waiting for scoring criteria...
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    - ✅ Scoring criteria generated and saved
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🔎 [Task ac42c762-b678-440c-9fdc-37c23ede5ee2/Round 1] Using pre-fetched search result...
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ Pre-fetched: 167499 articles, 9999 new
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📦 [Task ac42c762-b678-440c-9fdc-37c23ede5ee2/Round 1] Processing batch 1/18 (150 PMIDs).
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ⚡ Using pre-fetched Europe PMC data (parallel with scoring criteria)...
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ✅ Prefetched Europe PMC data retrieved successfully
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ⚙️ Parsing 143 articles from Europe PMC JSON...
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ Parsed: 138 with abstract, 5 no abstract (recent), 0 no abstract (old, discarded)
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   📦 Added 7 missing PMIDs to buffer
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   📦 Added 5 no-abstract PMIDs (recent) to buffer
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ✅ Europe PMC: 138 articles ready for screening
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ...fetched 138 articles with abstracts.
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📰 Journal filtering: 138 → 113 articles
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • Passed: 113 | Filtered out: 3
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • No ISSN: 0 | Not in reference: 22
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   📰 After journal filter: 113 articles to screen.
+2026-04-12 15:09:38 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ⚡ Starting Europe PMC prefetch for batch 2/18 (600 PMIDs)...
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 26667568: 14.6
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 02697491: 7.3
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 15254135: 2.2
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 20551010: 4.7
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 18687083: 4.4
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 14451433: 1.6
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 01492918: 3.6
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 15409996: 1.9
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 14622203: 3.0
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 19762283: 3.2
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 15672026: 1.7
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 07493797: 4.5
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 03781119: 2.4
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 20457634: 3.1
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 22962565: 3.4
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 2234943X: 3.3
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 00278874: 7.2
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 09056157: 4.5
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 2296858X: 3.0
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 24688509: 2.0
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 09066713: 15.7
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 18777821: 2.3
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 02636484: 2.7
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 23529067: 2.5
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 2296858X: 3.0
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 2234943X: 3.3
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 19326203: 2.6
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 00029165: 6.9
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 16648021: 2.8
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 00123692: 8.6
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 00071145: 3.0
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 08953988: 4.1
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 22962565: 3.4
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 15071367: 2.0
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 02697491: 7.3
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 10926429: 1.1
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 03005771: 5.9
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 20927193: 2.2
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ✅ DEBUG: Found journal info for ISSN 09644563: 4.7
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 💾 DEBUG Redis Push: Sample Article 1 IF: 14.6 | JCR: Q1
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ➕ Accumulated 39 new articles. Total: 39.
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🎯 90% threshold reached! Starting async PubMed supplement prefetch...
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ⚡ PubMed efetch started for 12 PMIDs (running in background)
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 💾 Updated master PMID list with 150 PMIDs.
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🏁 Batch 1 finished. Total matching articles: 39.
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🎉 Goal achieved! Found 39 studies (threshold: 20).
+2026-04-12 15:10:44 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -   ⏹️ Skipping PubMed supplement (goal already reached)
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🎉 Workflow completed successfully or reached max attempts!
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 
+
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ==================================================
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -  F I N A L  S U M M A R Y
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ==================================================
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🔄 Total rounds of search attempts: 1
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📚 Total Retrieved Articles: 150
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📰 Journal Filter (articles actually returned by PubMed):
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • Filter: JCR: Q1-Q4, CAS: 1-4区
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • Before: 138 → After: 113 | Filtered out: 25 (18.1%)
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🤖 Total AI Screened Articles: 113
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 🎯 Total Selected Articles: 39
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ==================================================
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📊 Token Usage Statistics (by Model):
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - --------------------------------------------------
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📌 gemini-flash-latest:
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • API Calls: 2
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • Input: 15,843 | Output: 2,873 | Total: 18,716
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - --------------------------------------------------
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📌 gemini-flash-lite-latest:
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • API Calls: 159
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • Input: 364,553 | Output: 14,931 | Total: 379,484
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - --------------------------------------------------
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 📊 TOTAL:
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • API Calls: 161
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO -    • Input: 380,396 | Output: 17,804 | Total: 398,200
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ⏱️ Total Duration: 1m 50s
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - ==================================================
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - INFO - 💾 Project log saved to: /app/celery_worker/search_code/logs/ac42c762-b678-440c-9fdc-37c23ede5ee2.log
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - ERROR - ❌ Database transaction failed: 'SearchWorkflow' object has no attribute 'user_id'
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - ERROR - ❌ Database connection or operation failed: 'SearchWorkflow' object has no attribute 'user_id'
+2026-04-12 15:10:46 - LiteratureSearch_ac42c762-b678-440c-9fdc-37c23ede5ee2 - ERROR - ❌ Finalize files failed: 'SearchWorkflow' object has no attribute 'user_id'

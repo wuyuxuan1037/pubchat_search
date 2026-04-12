@@ -1,0 +1,6 @@
+2026-04-12 14:13:34 - LiteratureSearch_28a56262-6d66-4aef-b55c-360e1267005a - INFO - ✅ Log system initialized for Task: 28a56262-6d66-4aef-b55c-360e1267005a
+2026-04-12 14:13:34 - LiteratureSearch_28a56262-6d66-4aef-b55c-360e1267005a - INFO - ✅ Redis connection established for progress updates.
+2026-04-12 14:13:34 - LiteratureSearch_28a56262-6d66-4aef-b55c-360e1267005a - INFO - 🚀 Workflow started for query: 'fgdsg' with filters: [time=2000-2026]
+2026-04-12 14:13:34 - LiteratureSearch_28a56262-6d66-4aef-b55c-360e1267005a - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
+2026-04-12 14:13:34 - LiteratureSearch_28a56262-6d66-4aef-b55c-360e1267005a - INFO - 🆕 Starting new project.
+2026-04-12 14:13:34 - LiteratureSearch_28a56262-6d66-4aef-b55c-360e1267005a - INFO - 2️⃣ Initializing clients...

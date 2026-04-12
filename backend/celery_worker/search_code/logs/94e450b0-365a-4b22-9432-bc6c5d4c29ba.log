@@ -1,0 +1,6 @@
+2026-04-12 13:20:05 - LiteratureSearch_94e450b0-365a-4b22-9432-bc6c5d4c29ba - INFO - ✅ Log system initialized for Task: 94e450b0-365a-4b22-9432-bc6c5d4c29ba
+2026-04-12 13:20:05 - LiteratureSearch_94e450b0-365a-4b22-9432-bc6c5d4c29ba - INFO - ✅ Redis connection established for progress updates.
+2026-04-12 13:20:05 - LiteratureSearch_94e450b0-365a-4b22-9432-bc6c5d4c29ba - INFO - 🚀 Workflow started for query: '额头v' with filters: [time=2000-2026]
+2026-04-12 13:20:05 - LiteratureSearch_94e450b0-365a-4b22-9432-bc6c5d4c29ba - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
+2026-04-12 13:20:05 - LiteratureSearch_94e450b0-365a-4b22-9432-bc6c5d4c29ba - INFO - 🆕 Starting new project.
+2026-04-12 13:20:05 - LiteratureSearch_94e450b0-365a-4b22-9432-bc6c5d4c29ba - INFO - 2️⃣ Initializing clients...
