@@ -1,6 +1,0 @@
-2026-04-12 14:45:02 - LiteratureSearch_34535383-5cc8-4d0c-807d-2c9520847222 - INFO - ✅ Log system initialized for Task: 34535383-5cc8-4d0c-807d-2c9520847222
-2026-04-12 14:45:02 - LiteratureSearch_34535383-5cc8-4d0c-807d-2c9520847222 - INFO - ✅ Redis connection established for progress updates.
-2026-04-12 14:45:02 - LiteratureSearch_34535383-5cc8-4d0c-807d-2c9520847222 - INFO - 🚀 Workflow started for query: '附件肯定是浪费' with filters: [time=2000-2026]
-2026-04-12 14:45:02 - LiteratureSearch_34535383-5cc8-4d0c-807d-2c9520847222 - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
-2026-04-12 14:45:02 - LiteratureSearch_34535383-5cc8-4d0c-807d-2c9520847222 - INFO - 🆕 Starting new project.
-2026-04-12 14:45:02 - LiteratureSearch_34535383-5cc8-4d0c-807d-2c9520847222 - INFO - 2️⃣ Initializing clients...

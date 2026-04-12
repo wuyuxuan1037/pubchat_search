@@ -1,6 +1,0 @@
-2026-04-12 14:11:47 - LiteratureSearch_9c514ae3-f882-4408-b770-125ccff99c75 - INFO - ✅ Log system initialized for Task: 9c514ae3-f882-4408-b770-125ccff99c75
-2026-04-12 14:11:47 - LiteratureSearch_9c514ae3-f882-4408-b770-125ccff99c75 - INFO - ✅ Redis connection established for progress updates.
-2026-04-12 14:11:47 - LiteratureSearch_9c514ae3-f882-4408-b770-125ccff99c75 - INFO - 🚀 Workflow started for query: 'fldk' with filters: [time=2000-2026]
-2026-04-12 14:11:47 - LiteratureSearch_9c514ae3-f882-4408-b770-125ccff99c75 - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
-2026-04-12 14:11:47 - LiteratureSearch_9c514ae3-f882-4408-b770-125ccff99c75 - INFO - 🆕 Starting new project.
-2026-04-12 14:11:47 - LiteratureSearch_9c514ae3-f882-4408-b770-125ccff99c75 - INFO - 2️⃣ Initializing clients...

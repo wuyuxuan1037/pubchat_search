@@ -1,6 +1,0 @@
-2026-04-12 13:22:43 - LiteratureSearch_04058d5a-cda9-4ba2-a9a1-ab2467311a90 - INFO - ✅ Log system initialized for Task: 04058d5a-cda9-4ba2-a9a1-ab2467311a90
-2026-04-12 13:22:43 - LiteratureSearch_04058d5a-cda9-4ba2-a9a1-ab2467311a90 - INFO - ✅ Redis connection established for progress updates.
-2026-04-12 13:22:43 - LiteratureSearch_04058d5a-cda9-4ba2-a9a1-ab2467311a90 - INFO - 🚀 Workflow started for query: 'fhdskhlkg' with filters: [time=2000-2026]
-2026-04-12 13:22:43 - LiteratureSearch_04058d5a-cda9-4ba2-a9a1-ab2467311a90 - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
-2026-04-12 13:22:43 - LiteratureSearch_04058d5a-cda9-4ba2-a9a1-ab2467311a90 - INFO - 🆕 Starting new project.
-2026-04-12 13:22:43 - LiteratureSearch_04058d5a-cda9-4ba2-a9a1-ab2467311a90 - INFO - 2️⃣ Initializing clients...

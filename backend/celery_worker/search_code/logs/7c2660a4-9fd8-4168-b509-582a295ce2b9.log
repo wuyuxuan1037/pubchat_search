@@ -1,6 +1,0 @@
-2026-04-12 13:16:15 - LiteratureSearch_7c2660a4-9fd8-4168-b509-582a295ce2b9 - INFO - ✅ Log system initialized for Task: 7c2660a4-9fd8-4168-b509-582a295ce2b9
-2026-04-12 13:16:15 - LiteratureSearch_7c2660a4-9fd8-4168-b509-582a295ce2b9 - INFO - ✅ Redis connection established for progress updates.
-2026-04-12 13:16:15 - LiteratureSearch_7c2660a4-9fd8-4168-b509-582a295ce2b9 - INFO - 🚀 Workflow started for query: 'd f f f' with filters: [time=2000-2026]
-2026-04-12 13:16:15 - LiteratureSearch_7c2660a4-9fd8-4168-b509-582a295ce2b9 - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
-2026-04-12 13:16:15 - LiteratureSearch_7c2660a4-9fd8-4168-b509-582a295ce2b9 - INFO - 🆕 Starting new project.
-2026-04-12 13:16:15 - LiteratureSearch_7c2660a4-9fd8-4168-b509-582a295ce2b9 - INFO - 2️⃣ Initializing clients...

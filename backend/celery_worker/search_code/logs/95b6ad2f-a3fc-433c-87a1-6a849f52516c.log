@@ -1,6 +1,0 @@
-2026-04-12 14:46:53 - LiteratureSearch_95b6ad2f-a3fc-433c-87a1-6a849f52516c - INFO - ✅ Log system initialized for Task: 95b6ad2f-a3fc-433c-87a1-6a849f52516c
-2026-04-12 14:46:53 - LiteratureSearch_95b6ad2f-a3fc-433c-87a1-6a849f52516c - INFO - ✅ Redis connection established for progress updates.
-2026-04-12 14:46:53 - LiteratureSearch_95b6ad2f-a3fc-433c-87a1-6a849f52516c - INFO - 🚀 Workflow started for query: 'jsldkjf' with filters: [time=2000-2026]
-2026-04-12 14:46:53 - LiteratureSearch_95b6ad2f-a3fc-433c-87a1-6a849f52516c - INFO - 📰 Journal quality filter enabled: JCR: Q1-Q4, CAS: 1-4区
-2026-04-12 14:46:53 - LiteratureSearch_95b6ad2f-a3fc-433c-87a1-6a849f52516c - INFO - 🆕 Starting new project.
-2026-04-12 14:46:53 - LiteratureSearch_95b6ad2f-a3fc-433c-87a1-6a849f52516c - INFO - 2️⃣ Initializing clients...
