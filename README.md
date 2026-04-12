@@ -14,7 +14,8 @@ Please ensure **Docker**（https://www.docker.com/） is installed and running o
 2.  **Start the Services**
     Open a terminal, navigate to the project root directory, and run the following command to start all services:
     ```bash
-    docker compose up -d
+    docker compose up -d 
+    ```
     Wait for the images to be pulled, containers to be built, and services to start.
 
 3.  **Access the Application**
@@ -25,6 +26,7 @@ Please ensure **Docker**（https://www.docker.com/） is installed and running o
 To shut down the project, run this command in the project root directory:
     ```bash
     docker compose down
+    ```
 
 
 # PubChat Search 项目使用指南
