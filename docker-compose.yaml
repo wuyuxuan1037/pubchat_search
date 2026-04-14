@@ -56,7 +56,7 @@ services:
   #   networks:
   #     - pubchat_network
 
-  celery- worker:
+  celery-worker:
     image: wuyuxuan1037/pubchat-celery-worker:latest
     container_name: celery-worker
     env_file:
